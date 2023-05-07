@@ -47,11 +47,11 @@ variable "env" {
 }
 
 variable "access_key"{
-        default = "AKIAVRHLD74F43AMLLYI"
+        default = "abcd"
 }
 
 variable "secret_key"{
-        default = "E2NAfRV6fdbkeVdas6+EqKQuOheTysIDq0Ds2M7Q"
+        default = "efgh"
 }
 
 variable "az" {
