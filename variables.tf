@@ -39,3 +39,19 @@ variable "az" {
 variable "vpcidr"{
 	default = "172.17.0.0/16"
 }
+
+### public domain
+
+variable "domain"{
+        default = "nidhin.co.in"
+}
+
+### private domain
+
+variable "domain_pvt"{
+        default = "nidhin.local"
+}
+
+variable "frontend_hostname"{
+	default = "blog"
+}
